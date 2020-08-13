@@ -244,8 +244,10 @@ p, h1, h2, h3, h4, h5, li a, button {
   margin-top: 5%;
   border-radius: 5%;
   background: #ffffff;
-  -webkit-box-shadow: 20px 20px 60px #d9d9d9,  -20px -20px 60px #ffffff;
-          box-shadow: 20px 20px 60px #d9d9d9,  -20px -20px 60px #ffffff;
+  -webkit-box-shadow: 20px 20px 60px #d9d9d9, 
+ -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #d9d9d9, 
+ -20px -20px 60px #ffffff;
 }
 
 .service-card:hover {
@@ -512,8 +514,10 @@ input::placeholder, textarea {
 .more-info img {
   border-radius: 50px;
   background: #ffffff;
-  -webkit-box-shadow: 32px 32px 64px #d9d9d9,  -32px -32px 64px #ffffff;
-          box-shadow: 32px 32px 64px #d9d9d9,  -32px -32px 64px #ffffff;
+  -webkit-box-shadow: 32px 32px 64px #d9d9d9, 
+ -32px -32px 64px #ffffff;
+          box-shadow: 32px 32px 64px #d9d9d9, 
+ -32px -32px 64px #ffffff;
 }
 
 /*Contact*/
