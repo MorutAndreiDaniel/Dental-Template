@@ -1,0 +1,600 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Dental Care Template</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col-lg-5 col-md-4 col-sm-8 col-xs-2 d-flex align-items-center logo-col">
+                   <a href="index.html"> <img src="Images/rsz_logomakr_6wg3xi.png" alt="logo" class="img-fluid" id="logo"></a>
+                </div>
+                <div class="col-lg-7 col-md-8 col-sm-4 col-xs-2 d-flex justify-content-end">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#news">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#gallery">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <!--Hero section-->
+    <div class="container-fluid col-12 mt-3 hero-image">
+       
+       <div class="container p-3 hero-text">
+           <h1 class="pt-2">We Are Making You Smile</h1>
+           <p class="lead p-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, illum.</p>
+           <button type="button" class="btn btn-lg btn-warning rounded-pill mt-2 first-button" id="buttonInfo">More info</button>
+       </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+    <!--Cards Section-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center first-card" data-aos="fade-right">
+                <i class="far fa-hourglass"></i>
+                <h3 class="pt-3">Working Schedule</h3>
+                <i class="fas fa-signature"></i>
+                <p class="p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum officia sequi quo fuga.</p>
+                <button type="button" class="btn btn-outline-light align-self-center rounded-pill w-50" id="schedule-button">More info</button>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center second-card" data-aos="fade-up">
+                <i class="fas fa-envelope-open-text"></i>
+                <h3 class="pt-3">Contact Us</h3>
+                <i class="fas fa-signature"></i>
+                <p class="p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum officia sequi quo fuga.</p>
+                <button type="button" class="btn btn-light align-self-center rounded-pill w-50 middle-button" id="contact-button">More info</button>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12 text-center d-flex flex-column justify-content-center third-card" data-aos="fade-left">
+                <i class="far fa-question-circle"></i>
+                <h3 class="pt-3">Appointment</h3>
+                <i class="fas fa-signature"></i>
+                <p class="p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum officia sequi quo fuga.</p>
+                <button type="button" class="btn btn-outline-light align-self-center rounded-pill w-50" id="appointment-button">More info</button>
+                
+            </div>
+        </div>
+    </div>
+    <!--About Clinic section-->
+    <div class="container-fluid about" data-aos="fade-up">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <img src="Images/rsz_nurse.jpg" alt="Nurse" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-12 p-3">
+                <h2 id="about" class="font-weight-bold display-4">About us</h2>
+                <p class="lead pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis harum qui hic pariatur sapiente consequatur autem error? Praesentium, mollitia ducimus quia est iste aperiam?</p>
+                <h4 class="mt-4 p-3">General Information</h4>
+                <p class="pl-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, optio consequuntur inventore temporibus cum corporis ea molestiae numquam praesentium minima. Esse, voluptatibus?</p>
+                <div class="row pl-4">
+                <ul class="col-lg-6">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                </ul>
+                <ul class="col-lg-6">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quod!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                </ul>
+                </div>
+                <h4 class="pl-4">Lorem, ipsum dolor.</h4>
+                <h4 class="pl-4">Lorem ipsum dolor sit amet consectetur.</h4>
+                
+
+            </div>
+        </div>
+    </div>
+    <!--Best Services Section-->
+    <div class="container-fluid best-services">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 text-section" data-aos="fade-right">
+                <h2 class="font-weight-bold display-4">Best Services</h2>
+                <i class="fas fa-signature"></i>
+                <p class="pt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum iusto laboriosam provident deserunt? Beatae!</p>
+                <div class="icon-section">
+                    <i class="fas fa-medkit"></i>
+                    <h5 class="pt-2">Consultation is free</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic?</p>
+                    <i class="fas fa-ambulance"></i>
+                    <h5 class="pt-1">Ambulance service</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, hic sequi.</p>
+                    <i class="far fa-calendar-check"></i>
+                    <h5 class="pt-1">Appointment anytime</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ea!</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 p-0" data-aos="fade-left">
+                <img class="img-fluid" src="Images/pexels-anna-shvets-3845625.jpg" alt="dentist-and-client">
+            </div>
+        </div>
+    </div>
+    <!--Our Services-->
+    <div class="container services">
+        <h2 class="text-center font-weight-bold display-4" id="services" data-aos="zoom-in">Our Services</h2>
+        <p class="lead text-center" data-aos="zoom-in">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, qui!</p>
+        <div class="row d-flex justify-content-around row-container">
+            <div class="col-lg-3 col-md-4 col-sm-7 ml-3 d-flex flex-column justify-content-center service-card">
+                <div class="d-flex pt-2 services-subtitle">
+                    <i class="fas fa-tooth"></i>
+                    <h5 class="pl-4">Tooth Whitening</h5>
+                </div>
+                <p class="pt-3 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odio officia fuga voluptate?</p>
+                <button type="button" class="btn btn-outline-primary pt-2 w-50" data-toggle="modal" data-target="#modal">Read More</button>
+            </div>
+            <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ModalLabel">Tooth Whitening</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur inventore praesentium dolorum vel sit possimus, dolore, assumenda modi odio incidunt reprehenderit.</p>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                      <button type="button" class="btn btn-outline-primary w-50" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-7 d-flex flex-column justify-content-center service-card">
+                <div class="d-flex pt-2 services-subtitle">
+                    <i class="fas fa-tooth"></i>
+                    <h5 class="pl-4">Dental Implants</h5>
+                </div>
+                <p class="pt-3 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odio officia fuga voluptate?</p>
+                <button type="button" class="btn btn-outline-primary pt-2 w-50" data-toggle="modal" data-target="#modal3">Read More</button>
+            </div>
+            <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ModalLabel">Tooth Restoration</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, architecto?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur inventore praesentium dolorum vel sit possimus, dolore, assumenda modi odio incidunt reprehenderit.</p>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                      <button type="button" class="btn btn-outline-primary w-50" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-7 mr-3 d-flex flex-column justify-content-center service-card">
+                <div class="d-flex pt-2 services-subtitle">
+                    <i class="fas fa-tooth"></i>
+                    <h5 class="pl-4">Tooth Restoration</h5>
+                </div>
+                <p class="pt-3 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odio officia fuga voluptate?</p>
+                <button type="button" class="btn btn-outline-primary pt-2 w-50" data-toggle="modal" data-target="#modal3">Read More</button>
+            </div>
+            <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title col-12 text-center" id="ModalLabel">Tooth Whitening</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing.Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur inventore praesentium dolorum vel sit possimus, dolore, assumenda modi odio incidunt reprehenderit.</p>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                      <button type="button" class="btn btn-outline-primary w-50" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-7 ml-3 d-flex flex-column justify-content-center service-card">
+                <div class="d-flex pt-2 services-subtitle">
+                    <i class="fas fa-tooth"></i>
+                    <h5 class="pl-4">Tooth Crowns</h5>
+                </div>
+                <p class="pt-3 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odio officia fuga voluptate?</p>
+                <button type="button" class="btn btn-outline-primary pt-2 w-50" data-toggle="modal" data-target="#modal4">Read More</button>
+            </div>
+            <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ModalLabel">Tooth Crowns</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem, ipsum dolor.Lorem ipsum dolor, sit amet consectetur adipisicing.Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur inventore praesentium dolorum vel sit possimus, dolore, assumenda modi odio incidunt reprehenderit.</p>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                      <button type="button" class="btn btn-outline-primary w-50" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-7 d-flex flex-column justify-content-center service-card">
+                <div class="d-flex pt-2 services-subtitle">
+                    <i class="fas fa-tooth"></i>
+                    <h5 class="pl-4">Caries Defence</h5>
+                </div>
+                <p class="pt-3 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odio officia fuga voluptate?</p>
+                <button type="button" class="btn btn-outline-primary pt-2 w-50" data-toggle="modal" data-target="#modal5">Read More</button>
+            </div>
+            <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ModalLabel">Caries Defence</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem, ipsum dolor.Lorem ipsum dolor, sit amet consectetur adipisicing.Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur inventore praesentium dolorum vel sit possimus, dolore, assumenda modi odio incidunt reprehenderit.</p>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                      <button type="button" class="btn btn-outline-primary w-50" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-7 mr-3 d-flex flex-column justify-content-center service-card">
+                <div class="d-flex pt-2 services-subtitle">
+                    <i class="fas fa-tooth"></i>
+                    <h5 class="pl-4">Tooth Cleaning</h5>
+                </div>
+                <p class="pt-3 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odio officia fuga voluptate?</p>
+                <button type="button" class="btn btn-outline-primary pt-2 w-50" data-toggle="modal" data-target="#modal6">Read More</button>
+            </div>
+            <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ModalLabel">Tooth Cleaning</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem, ipsum dolor.Lorem ipsum dolor, sit amet consectetur adipisicing.Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur inventore praesentium dolorum vel sit possimus, dolore, assumenda modi odio incidunt reprehenderit.</p>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                      <button type="button" class="btn btn-outline-primary w-50" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Other info section-->
+    <div class="container-fluid other-info">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-0" data-aos="flip-right" data-aos-duration="1000">
+                <img src="Images/researcher.jpg" class="img-fluid" alt="researcher">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 pt-4 text-center" data-aos="flip-right" data-aos-duration="1250">
+                <i class="fas fa-toolbox"></i>
+                <h3 class="pt-3">Newest Equipment</h3>
+                <p class="pt-4 pl-2 pr-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nobis, quam ab perspiciatis omnis accusamus.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-0" data-aos="flip-right" data-aos-duration="1500">
+                <img src="Images/medical.jpg" class="img-fluid" alt="medical stuff">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 pt-4 text-center" data-aos="flip-right" data-aos-duration="1750">
+                <i class="fas fa-user-md"></i>
+                <h3 class="pt-3">Qualificated dentists</h3>
+                <p class="pt-4 pl-2 pr-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nobis, quam ab perspiciatis omnis accusamus.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-0" data-aos="flip-right" data-aos-duration="2000">
+                <img src="Images/dentist cabinet.jpg" class="img-fluid" alt="dentist-cabinet">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 pt-4 text-center" data-aos="flip-right" data-aos-duration="2250">
+                <i class="far fa-id-badge"></i>
+                <h3 class="pt-3">Licenced & Insured</h3>
+                <p class="pt-4 pl-2 pr-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nobis, quam ab perspiciatis omnis accusamus.</p>
+            </div>
+        </div>
+    </div>
+    <!--Counter section-->
+    <div class="container-fluid d-flex justify-content-center counter-section" data-aos="flip-up">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col1">
+                <i class="far fa-smile-beam"></i>
+                <div class="counter-description">
+                    <div class="pl-4 counter" data-target="3800">0</div>
+                    <h5 class="pl-4">Happy People</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col1">
+                <i class="far fa-calendar-alt"></i>
+                <div class="counter-description">
+                    <div class="pl-4 counter" data-target="5900">0</div>
+                    <h5 class="pl-4">Days with you</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col1">
+                <i class="fas fa-dolly"></i>
+                <div class="counter-description">
+                    <div class="pl-4 counter" data-target="2200">0</div>
+                    <h5 class="pl-4">New Equipment</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col1">
+                <i class="far fa-grimace"></i>
+                <div class="counter-description">
+                    <div class="pl-4 counter" data-target="3800">0</div>
+                    <h5 class="pl-4">Clean Teeth</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--News section-->
+    <section>
+        <div class="container d-flex flex-column align-items-center news-container text-center mb-4">
+            <h2 class="text-center font-weight-bold display-4" id="news" data-aos="zoom-in">News</h2>
+            <p class="lead col-lg-12 w-75 pt-3" data-aos="zoom-in">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos doloremque reprehenderit, repudiandae aliquam ipsam iure eveniet?</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <img src="Images/news1.jpg" class="img-fluid" alt="researcher" data-aos="fade-up" data-aos-duration="1000">
+                    <h4 class="pt-3" data-aos="fade-up" data-aos-duration="1000">Latest results</h4>
+                    <p data-aos="fade-up" data-aos-duration="1000">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium a tempora nam reprehenderit provident...</p>
+                    <div class="pt-3 d-flex flex-row justify-content-between news-footer">
+                        <a href="#" data-toggle="modal" data-target="#news-modal">Read more</a>
+                        <div class="modal fade" id="news-modal" tabindex="-1" role="dialog" aria-labelledby="news-modal" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="news-modal">Latest results</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero beatae cumque a! Molestias libero odio amet dolores fuga iure eum, praesentium aperiam facilis?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ab eaque similique.</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="d-flex date">
+                            <i class="pr-2 pt-1 fas fa-history"></i>
+                            <p>22.Aug.2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col2">
+                    <img src="Images/news2.jpg" class="img-fluid" alt="medic" data-aos="fade-up" data-aos-duration="1500">
+                    <h4 class="pt-3" data-aos="fade-up" data-aos-duration="1500">New medics</h4>
+                    <p data-aos="fade-up" data-aos-duration="1500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium a tempora nam reprehenderit provident...</p>
+                    <div class="pt-3 d-flex flex-row justify-content-between news-footer">
+                        <a href="#" data-toggle="modal" data-target="#news-modal2">Read more</a>
+                        <div class="modal fade" id="news-modal2" tabindex="-1" role="dialog" aria-labelledby="news-modal2" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="news-modal2">New medics</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, cum.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum officia, quidem cupiditate nisi reiciendis aliquid ullam quis similique suscipit nemo. Commodi fuga architecto natus illum.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero beatae cumque a! Molestias libero odio amet dolores fuga iure eum, praesentium aperiam facilis?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ab eaque similique.</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="d-flex date">
+                            <i class="pr-2 pt-1 fas fa-history"></i>
+                            <p>22.Aug.2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <img src="Images/news3.jpg" class="img-fluid" alt="resercher" data-aos="fade-up" data-aos-duration="2000">
+                    <h4 class="pt-3" data-aos="fade-up" data-aos-duration="2000">New discoveries</h4>
+                    <p data-aos="fade-up" data-aos-duration="2000">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium a tempora nam reprehenderit provident...</p>
+                    <div class="pt-3 d-flex flex-row justify-content-between news-footer">
+                        <a href="#" data-toggle="modal" data-target="#news-modal3">Read more</a>
+                        <div class="modal fade" id="news-modal3" tabindex="-1" role="dialog" aria-labelledby="news-modal3" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="news-modal3">New discoveries</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel officia quidem, unde odit quo iste saepe non accusamus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, cum.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum officia, quidem cupiditate nisi reiciendis aliquid ullam quis similique suscipit nemo. Commodi fuga architecto natus illum.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero beatae cumque a! Molestias libero odio amet dolores fuga iure eum, praesentium aperiam facilis?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ab eaque similique.</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="d-flex date">
+                            <i class="pr-2 pt-1 fas fa-history"></i>
+                            <p>22.Aug.2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Simple section-->
+    <div class="container-fluid d-flex flex-column justify-content-center simple-section" data-aos="zoom-in">
+        <h2 class="text-center">Specialized Dentistry & Personalized Care</h2>
+        <p class="text-center w-50 pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dignissimos enim nostrum dolore commodi ut fugiat itaque quam in, quae odit.</p>
+    </div>
+    <!--Gallery Section-->
+    <div class="container gallery">
+        <h2 class="text-center font-weight-bold display-4 pb-3" id="gallery" data-aos="zoom-out">Gallery</h2>
+        <div class="row p-0">
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12" data-aos="zoom-in" data-aos-duration="1000">
+                <img src="Images/pexels-pixabay-52527.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="Images/pexels-andrea-piacquadio-3881238.jpg" class="img-fluid img2">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-duration="2000">
+                <img src="Images/pexels-anna-shvets-3845626.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" data-aos="zoom-in" data-aos-duration="2500">
+                <img src="Images/pexels-daniel-frank-305565.jpg" class="img-fluid img4">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-duration="3000">
+                <img src="Images/pexels-photomix-company-216729.jpg" class="img-fluid w-100 mt-4 pl-2 toothbrush">
+            </div>
+
+        </div>
+    </div>
+    <!--Appointment Section-->
+    <div class="container-fluid d-flex justify-content-around appointment" id="appointment">
+        <div class="row p-4">
+            <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 d-flex flex-column justify-content-center" data-aos="fade-right">
+                <h2>Appointment</h2>
+                <i class="fas fa-signature pt-1"></i>
+                <p class="lead pt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis iste voluptatum iusto sunt ipsam quam obcaecati sapiente, impedit omnis.</p>
+                <img src="Images/Appointment.jpg" alt="appointment" class="img-fluid w-75">
+            </div>
+            <!--Appointment Form-->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12  d-flex justify-content-start formbg" data-aos="fade-left">
+                <form>
+                    <h4 class="text-center pt-4">Appointment form</h4>
+                    <i class="fas fa-signature d-flex justify-content-center"></i>
+                    <div class="form-group pt-4">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                       <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Your message"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary rounded-pill w-100">Submit</button>
+                  </form>
+                   
+               
+            </div>
+        </div>
+    </div>
+    <!--More info section-->
+    <div class="container more-info" id="info">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-center" data-aos="zoom-in" data-aos-duration="1250">
+                <h2 class="text-center">More Info</h2>
+                <p class="lead pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsa officia recusandae placeat.</p>
+                <h4 class="text-center pt-4">Some info</h4>
+                <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium vero ab minima delectus officiis asperiores eveniet animi, laboriosam quisquam atque, explicabo tempore veritatis tenetur vitae autem.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-duration="2000">
+                <img src="Images/rsz_more_info.jpg" alt="chair and a desk" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+    <!--Contact Section-->
+    <div class="container-fluid contact" data-aos="fade-right" data-aos-duration="1500" id="contact">
+        <div class="container-fluid bgColor">
+        <div class="container d-flex flex-column justify-content-center text-center contact-content col-lg-6 col-md-8 col-sm-8 p-3" data-aos="fade-left" data-aos-duration="2500">
+            <h3 id="schedule">Contact</h3>
+            <p class="lead p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="d-flex align-items-start flex-column icons">
+                <div class="phone">
+                    <i class="fas fa-phone pr-4"></i>
+                    <p>(+40) 0343 654</p>
+                </div>
+                <div class="email">
+                    <i class="fas fa-envelope-square pr-4"></i>
+                    <p>contact@yahoo.com</p>
+                </div>
+                <div class="address">
+                    <i class="fas fa-map-marker-alt pr-4"></i>
+                    <p>Street 12</p>
+                </div>
+                <div class="schedule d-flex">
+                    <i class="far fa-clock pr-4"></i>
+                    <p>Monday - Friday: 08<sup>00</sup>-20<sup>00</sup></p><br>
+                    <p>, Saturday - Sunday: Closed</p>
+                </div>
+            </div>
+            <div class="container social-menu pt-4">
+                <ul>
+                  <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+        </div>
+        </div>
+    </div>
+    <!--Quote Section-->
+    <div class="container text-center quote" data-aos="zoom-in">
+        <blockquote class="blockqoute">
+            <h2 class="mb-0">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse saepe sunt commodi.<sub>"</sub></h2>
+            <footer class="blockqoute-footer font-weight-bolder pt-2">- Lorem ipsum in <cite title="Source Title">Source Title</cite></footer>
+        </blockquote>
+    </div>
+    <!--Footer-->
+    <footer class="last-footer d-flex align-items-center">
+        <div class="container-fluid">
+            <h4 class="text-center">&copy 2020 Morut Andrei-Daniel</h4>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>

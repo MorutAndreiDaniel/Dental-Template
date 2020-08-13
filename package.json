@@ -1,0 +1,27 @@
+{
+  "name": "dental-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "postcss-modules": "^3.2.0",
+    "postcss-uncss": "^0.17.0",
+    "uncss": "^0.17.3"
+  },
+  "devDependencies": {
+    "sass": "^1.26.10",
+    "node-sass": "4.5.0"
+  },
+  "scripts": {
+    "start": "parcel index.html --port 3000 --open",
+    "dev": "npm run clean && npm run start",
+    "build": "parcel build src/index.html",
+    "clean": "rm -rf ./.cache ./dist",
+    "node-sass": "node-sass --output-style compressed -o dist/css src/scss"
+  },
+  "author": "Morut Andrei-Daniel",
+  "license": "ISC"
+}

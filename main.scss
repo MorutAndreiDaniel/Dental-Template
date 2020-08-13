@@ -1,0 +1,895 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Text', serif;
+    
+}
+body {
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, li a, button {
+    font-family: 'Nunito Sans', sans-serif;
+}
+p, h1, h2, h3, h4, h5, li a, button {
+    letter-spacing: 0.1em;
+}
+
+/*Hero Section*/
+.hero-image {
+    
+    background-image: url("/Images/dentist-header-image.jpg");
+    height: 86%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  
+  .hero-text {
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0.8;
+    height: 55%;
+    line-height: 1.5em;
+}
+    .hero-text h1 {
+        color: #0099CC;
+    }
+    .first-button:hover {
+        background-color: black;
+        color: #e0a800;
+        scroll-behavior: smooth;
+    }
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 23px;
+        border: none;
+        outline: none;
+        background-color: rgba(120, 120, 120, 0.8);
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border: 1px solid rgba(60, 60, 60, 0.8);
+        border-radius: 4px;
+      }
+      
+      #myBtn:hover {
+        background-color: #555;
+      }
+
+    /*Cards*/
+    .first-card, .second-card, .third-card {
+        color: white;
+        height: 50vh;
+    }
+    .first-card {
+        background-color: #21BEDE;
+    }
+    .second-card {
+        background-color: #0588BC;
+    }
+    .third-card {
+        background-color: #00578A;
+    }
+    .fa-hourglass, .fa-question-circle, .fa-envelope-open-text {
+        font-size: 3em;
+    }
+    .middle-button:hover {
+        background-color: #0588BC;
+        color: white;
+    }
+
+    /*About us*/
+    .about {
+        margin-top: 10%;
+    }
+    .about h2 {
+        color:  #0588BC;
+    }
+    .about img {
+        margin-top: 13%;
+    }
+
+    .about ul {
+        line-height: 1.8em;
+        list-style-type: none;
+    }
+    .about ul li::before {
+        content: "\2022";  
+        color: #0588BC;
+        font-weight: bold; 
+        font-size: 1em;
+        display: inline-block; 
+        width: 1em; 
+        margin-left: -1em; 
+      }
+
+/*Best Services Section*/
+.text-section {
+    color: white;
+    background: transparent linear-gradient(107deg, #0AA3E9 0%, #27FEFE 100%) 0% 0% no-repeat padding-box;
+    padding: 1% 8% 0% 5%;
+    line-height: 1.2em;
+}
+.fa-medkit:before {
+    content: '';
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    top: 40%;
+    left: 8%;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-medkit:after {
+    content:'';
+    position: absolute;
+    width: 0.2em;
+    height: 3.2em;
+    background-color: white;
+    left: 10.7%;
+    top: 48.8%;
+}
+.fa-ambulance:before {
+    content: '';
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    top: 60%;
+    left: 8%;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-ambulance:after {
+    content:'';
+    position: absolute;
+    width: 0.2em;
+    height: 3.2em;
+    background-color: white;
+    left: 10.7%;
+    top: 69%;
+}
+.fa-calendar-check:before {
+    content: '';
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    top: 80%;
+    left: 8%;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-section {
+    margin-left: 10%;
+    
+}
+
+/*Our Services*/
+.services {
+    margin-top: 5%;
+
+    h2 {
+        color: #0588BC;
+    }
+}
+
+.fa-tooth {
+    color: #0099CC;
+}
+.service-card {
+    height: 35vh;
+    margin-top: 5%;
+    border-radius: 5%;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d9d9d9, 
+             -20px -20px 60px #ffffff;
+}
+.service-card:hover {
+    background-color: #0099CC;
+    color: white;
+
+    .fa-tooth {
+        color: white;
+    }
+    .btn {
+        color: white;
+        border: 1px solid white;
+    }
+}
+
+/*Other info section*/
+.other-info {
+    margin-top: 10%;
+    h3 {
+        color: #21BEDE;
+    }
+    .fa-toolbox, .fa-user-md, .fa-id-badge {
+        color: #FF7F11;
+        font-size: 4em;
+    }
+}
+.counter-section {
+    background: transparent linear-gradient(107deg,   #00578A 0%, #0588BC  50%, #27FEFE 100%) 0% 0% no-repeat padding-box;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    
+    .row {
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 5%;
+    }
+    .counter-description {
+        margin-left: 3em;
+        
+    }
+}
+
+.counter {
+    font-size: 2em;
+    
+}
+.fa-smile-beam, .fa-calendar-alt, .fa-dolly, .fa-grimace {
+    position: absolute;
+    font-size: 3em;
+    color: #fff;
+    left: 5;
+}
+.fa-smile-beam:before {
+    content: '';
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+    top: 60%;
+    left: 8%;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-calendar-alt:before {
+    content: '';
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+    top: 60%;
+    left: 8%;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-dolly:before {
+    content: '';
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+    top: 60%;
+    left: 8%;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-grimace:before {
+    content: '';
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+    top: 60%;
+    left: 8%;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*News Section*/
+.news-container {
+    margin-top: 5%;
+    h2 {
+        color: #0588BC;
+    }
+    .row {
+        margin-top: 5%;
+    }
+    a {
+        color: #FF7F11;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #0588BC;
+    }
+    i {
+        font-size: 0.8em;
+        color: #0588BC;
+    }
+    
+}
+
+.simple-section {
+    height: 40vh;
+    color: #fff;
+    background: transparent linear-gradient(107deg,   #00578A 0%, #0588BC  50%, #27FEFE 100%) 0% 0% no-repeat padding-box;
+
+    p {
+        transform: translatex(50%);
+    }
+}
+
+/*Gallery*/
+.gallery {
+    margin-top: 5%;
+
+    h2 {
+        color: #0588BC;
+    }
+
+    .img2 {
+        height: 46.8vh;
+        width: 100%;
+    }
+    .img4 {
+        
+        transform: translateY(-52%);
+        width: 100% !important;
+    }
+    .toothbrush {
+        margin-top: 5%;
+        height: 20vh;
+    }
+    
+}
+
+/*Appointment Section*/
+.appointment {
+    padding: 5%;
+    height: 115vh;
+    background: transparent linear-gradient(107deg,   #00578A 0%, #0588BC  50%, #27FEFE 100%) 0% 0% no-repeat padding-box;
+
+    h2, i, p {
+        color: #fff;
+    }
+}
+
+/*Appointment form*/
+form {
+    background-color: #add8e6;
+    padding: 3%;
+    border-radius: 1%;
+    
+    .btn {
+        background-color: #FF7F11;
+        border: 2px solid #fff;
+    }
+    h4, i {
+        color: rgb(105, 98, 98) !important;
+    }   
+}
+input::placeholder, textarea {
+    color: rgb(105, 98, 98) !important;
+}
+.form-control {
+    background-color: #d4ebf2;
+}
+
+/*More info*/
+.more-info {
+    margin-top: 5%;
+    h2 {
+        color: #0588BC;
+    }
+    img {
+        border-radius: 50px;
+        background: #ffffff;
+        box-shadow:  32px 32px 64px #d9d9d9, 
+             -32px -32px 64px #ffffff;
+    }
+}
+
+/*Contact*/
+.contact {
+    height: 90vh;
+    overflow-y: hidden;
+    background: url('./Images/Buildings.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin-top: 5%;
+}
+.bgColor {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-size: contain;
+    background-color: #0588BC;
+    opacity: 0.9;
+    z-index: 3;
+    height: 90vh;
+}
+.contact-content {
+    background-color: #27FEFE;
+    color: rgb(60, 60, 60);
+    opacity: 1;
+    height: 75vh;
+    z-index: 7;
+}
+.icons div {
+    display: flex;
+}
+.phone, .email, .address, .schedule {
+    margin-left: 8%;
+    i {
+        color: white;
+        font-size: 1.2em;
+    }
+}
+/*Contact media icons*/
+.social-menu ul {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    z-index: 4;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fab {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fab:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+
+.quote {
+    padding: 10% 0;
+
+        sub {
+            color: rgb(60,60, 60);
+        }
+}
+
+.last-footer {
+    background: transparent linear-gradient(107deg,   #00578A 0%, #0588BC  50%, #27FEFE 100%) 0% 0% no-repeat padding-box;
+    height: 10vh;
+}
+
+
+
+/*Media Queries*/
+@media (max-width: 1200px) {
+    html {
+        overflow-x: hidden;
+    }
+    
+    .hero-text {
+        width: 50%;
+        height: 60%;
+    }
+    .hero-text p, .hero-text button {
+        margin-top: 7%;
+    }
+    .about img {
+        display:flex;
+        justify-content: center;
+        margin: 0 auto;
+        padding-top: 30%;
+    }
+    .about h2 {
+        text-align: center;
+    }
+    .about h2, h4, p, li {
+        padding: 0em 1em;
+    }
+    .fa-medkit:after, .fa-ambulance:after {
+        left: 11.2%;
+        height: 4.3em;
+    }
+    .best-services img {
+        height: 90vh;
+    }
+    .best-services h2 {
+        font-size: 3em;
+        text-align: center;
+    }
+    .best-services .fa-signature {
+        display: flex;
+        justify-content: center;
+    }
+    .fa-medkit:after, .fa-ambulance:after {
+        display: none;
+    }
+    .fa-medkit:before {
+        top: 40%;
+    }
+    .fa-ambulance:before {
+        top: 57%;
+    }
+    .fa-calendar-check:before {
+        top: 75%;
+    }
+    .service-card {
+        height: 50vh;
+        .btn {
+            width: 75% !important;
+        }
+    }
+
+    .other-info h3 {
+        font-size: 1em;
+    }
+    .other-info p {
+        font-size: 0.8em;
+    }
+    .fa-toolbox, .fa-user-md, .fa-id-badge {
+        font-size: 1.5em;
+    }
+    .news-container {
+        i   {
+            padding-right: 0 !important;
+        }
+        p {
+            text-align: justify;
+        }
+    }
+    
+    .gallery .img2 {
+        height: 39vh;
+    }
+    .gallery .img4 {
+        transform: translateY(-50%);
+        
+    }
+    .social-menu {
+        margin-top: 10%;
+    }
+    .social-menu ul li {
+        margin: 0;
+        padding: 5%;
+        left: 0;
+        transform: translatex(-80%);
+    }
+    .contact-content {
+        height: 70vh;
+        
+    }
+    
+    
+}
+@media (max-width: 996px) {
+    .hero-text h1 {
+        font-size: 2em;
+    }
+    .hero-text p {
+        font-size: 1.2em;
+    }
+    .hero-text{ 
+        padding-top: 2em;
+    }
+    .third-card {
+        transform: translatex(50%);
+    }
+    .best-services img {
+        width: 100%;
+    }
+    .text-section {
+        padding-bottom: 5%;
+    }
+    .fa-medkit:before {
+        top: 40%;
+    }
+    .fa-ambulance:before {
+        top: 56%;
+    }
+    .fa-calendar-check:before {
+        top: 73%;
+    }
+    .service-card:nth-of-type(3), .service-card:nth-of-type(5) {
+        margin-left: 2em;
+    }
+    .service-card:nth-of-type(4) {
+        margin-right: 0.5em;
+    }
+    .service-card:nth-of-type(6) {
+        margin-right: -0.5em !important;
+    }
+    .other-info p {
+        padding-top: 0 !important;
+    }
+    .fa-toolbox, .fa-user-md, .fa-id-badge {
+        font-size: 1.2em !important;
+    }
+    .news-container {
+        .col2 p {
+            margin-top: 18% !important;
+        }
+        .col2 .date p {
+            margin-top: -3% !important;
+            
+        }
+        .date p {
+            margin-left: -10%;
+        }
+        .date i {
+            margin-left: 10%;
+        }
+    }
+    .simple-section p {
+        width: 75% !important;
+        transform: translatex(20%);
+    }
+    .gallery .img2 {
+        height: 28.5vh;
+    }
+    .gallery .img4 {
+        transform: translatey(-47%);
+        width: 90%;
+    }
+    .more-info {
+        
+        p {
+            text-align: justify;
+        }
+    }
+       
+}
+@media (max-width: 768px) {
+    .hero-text {
+        width: 60%;
+        height: 70%;
+    }
+    .hero-text p, .hero-text button {
+        margin-top: 15%;
+    }
+    .first-card, .second-card, .third-card {
+        height: 60vh;
+    }
+    .fa-medkit:before {
+        top: 40%;
+        left: 7%;
+    }
+    .fa-ambulance:before {
+        left: 7%;
+    }
+    .fa-calendar-check:before {
+        left: 7%;
+    }
+    .service-card .btn {
+        margin-top: 2em;
+        width: 60% !important;
+    }
+    .other-info h3 {
+        font-size: 1.5em;
+    }
+    .other-info p {
+        padding-top: 1em !important;
+        
+    }
+    .fa-toolbox, .fa-user-md, .fa-id-badge {
+        font-size: 2em !important;
+    }
+    .counter-section .row {
+        margin-left: 0;
+    }
+    .news-container  {
+        .row {
+        margin-top: 10%;
+        }
+        h4 {
+            margin-top: 5%;
+        }
+        .col2 p {
+            margin-top: 0 !important;
+        }
+        .date {
+            margin-bottom: 5%;
+        }
+
+    }
+    .gallery .img2 {
+        height: 21vh;
+    }
+    .gallery .img4 {
+        transform: translatey(-40%);
+    }
+    .more-info img {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .contact, .bgColor {
+        height: 100vh;
+    }
+    .contact-content {
+        height: 85vh;
+    }
+    
+       
+}
+@media (max-width: 580px) {
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        margin-right: 40%;
+    }
+    .logo-col {
+        justify-content: center;
+    }
+    #logo {
+        margin-left: 5%;
+        
+    }
+    .hero-text {
+        height: 75%;
+    }
+    .first-card, .second-card, .third-card {
+        padding: 0 3em;
+    }
+    .third-card {
+        transform: translatex(0%);
+    }
+    .fa-medkit:before {
+        top: 38%;
+        left: 4%;
+    }
+    .fa-ambulance:before {
+        top: 57%;
+        left: 4%;
+    }
+    .fa-calendar-check:before {
+        top: 76%;
+        left: 4%;
+    }
+    .service-card{
+        width: 75%;
+        margin: 2em 1em;
+   }
+   .best-services img {
+       max-width: 100%;
+       height: auto;
+   }
+   .fa-toolbox, .fa-user-md, .fa-id-badge {
+    margin-top: 1em;
+    }
+    .other-info p {
+        font-size: 1em;
+        margin-bottom: 3em !important;
+        width: 75%;
+        transform: translatex(20%);
+    }
+    .counter-section {
+        height: 80vh !important;
+    }
+    .col1 {
+        margin-top: 1em;
+        transform: translatex(20%);
+        padding-top: 1em;
+    }
+    .simple-section {
+        height: 60vh;
+    }
+    .gallery img {
+        padding: 5%;
+    }
+    .gallery .img2 {
+        height: 100%;
+    }
+    .gallery .img4 {
+        transform: translatex(0%);
+    }
+    .toothbrush {
+        margin-top: 5%;
+        transform: translatex(4%);
+        height: 40vh !important;
+        
+    }
+    .appointment {
+        height: 200vh;
+
+        i {
+            display: flex;
+            justify-content: center;
+        }
+        
+        h2, p {
+            text-align: center;
+        }
+        img {
+            margin-top: 0;
+            width: 100% !important;
+        }
+
+        .formbg {
+            margin-top: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    }
+    .contact-content {
+        margin: 5% 5% !important;
+    }
+    .last-footer {
+        height: 15vh;
+    }
+    
+       
+}
