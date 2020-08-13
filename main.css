@@ -23,7 +23,7 @@ p, h1, h2, h3, h4, h5, li a, button {
 
 /*Hero Section*/
 .hero-image {
-  background-image: url("/Images/dentist-header-image.jpg");
+  background-image: url("./Images/dentist-header-image.jpg");
   height: 86%;
   background-position: center;
   background-repeat: no-repeat;
